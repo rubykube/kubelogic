@@ -1,0 +1,12 @@
+# This file was generated using Kubelogic gem
+
+defaults: &defaults
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

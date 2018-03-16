@@ -1,5 +1,5 @@
-require "kubelogic/version"
+# frozen_string_literal: true
 
-module Kubelogic
-  # Your code goes here...
-end
+require 'rails'
+
+require 'kubelogic/version'
