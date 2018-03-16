@@ -19,7 +19,7 @@ module Kubelogic
       end
 
       def verify(payload)
-        JWT.decode(payload, @opts[:public_key])
+        JWT.decode(payload, @opts[:public_key], true, @opts)
       end
 
       private
