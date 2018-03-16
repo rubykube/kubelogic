@@ -1,5 +1,8 @@
-require "kubelogic/version"
+
+require 'jwt'
+
+require 'kubelogic/version'
+require 'kubelogic/security/payload'
 
 module Kubelogic
-  # Your code goes here...
 end

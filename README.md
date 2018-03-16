@@ -1,8 +1,6 @@
 # Kubelogic
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kubelogic`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Kubelogic library is mainly used for unifying application and component configuration
 
 ## Installation
 
@@ -22,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In order to create a new RKCP backend application install latest rails version and run
+
+```
+rails new --database=mysql --skip-turbolinks --skip-coffee --webpack=react --skip-test --skip-system-test applogic
+cd applogic
+bundle add kubelogic
+bundle install
+```
 
 ## Development
 
@@ -32,4 +37,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/kubelogic.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rubykube/kubelogic.
